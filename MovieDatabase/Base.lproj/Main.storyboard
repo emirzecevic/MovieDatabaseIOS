@@ -16,18 +16,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter movie name" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="k98-c6-YOD">
-                                <rect key="frame" x="3" y="44" width="320" height="35"/>
+                                <rect key="frame" x="3" y="44" width="318" height="35"/>
                                 <color key="backgroundColor" red="0.10980392160000001" green="0.73333333329999995" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="Ov0-Mx-5HI"/>
-                                    <constraint firstAttribute="width" constant="320" id="tOI-Z7-eaa"/>
                                 </constraints>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4uc-Ip-McL">
-                                <rect key="frame" x="326" y="44" width="85" height="35"/>
+                                <rect key="frame" x="326" y="44" width="83" height="35"/>
                                 <color key="backgroundColor" red="0.10980392160000001" green="0.73333333329999995" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="Fwo-Zc-eG1"/>
@@ -93,12 +92,13 @@
                         <viewLayoutGuide key="safeArea" id="ItA-SE-AQY"/>
                         <color key="backgroundColor" red="0.34901960780000002" green="0.34901960780000002" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="4uc-Ip-McL" firstAttribute="trailing" secondItem="ItA-SE-AQY" secondAttribute="trailing" constant="-3" id="3bj-Rh-r5s"/>
+                            <constraint firstItem="4uc-Ip-McL" firstAttribute="trailing" secondItem="ItA-SE-AQY" secondAttribute="trailing" constant="-5" id="3bj-Rh-r5s"/>
                             <constraint firstItem="M3h-sj-Pnx" firstAttribute="leading" secondItem="ItA-SE-AQY" secondAttribute="leading" id="Bfs-Ds-Km5"/>
                             <constraint firstAttribute="bottom" secondItem="M3h-sj-Pnx" secondAttribute="bottom" id="Fbk-ic-bkF"/>
                             <constraint firstItem="k98-c6-YOD" firstAttribute="top" secondItem="ItA-SE-AQY" secondAttribute="top" id="SpV-h4-w2V"/>
                             <constraint firstItem="4uc-Ip-McL" firstAttribute="top" secondItem="ItA-SE-AQY" secondAttribute="top" id="UHD-FF-AmK"/>
                             <constraint firstItem="ItA-SE-AQY" firstAttribute="trailing" secondItem="M3h-sj-Pnx" secondAttribute="trailing" id="XWX-jT-AmJ"/>
+                            <constraint firstItem="4uc-Ip-McL" firstAttribute="leading" secondItem="k98-c6-YOD" secondAttribute="trailing" constant="5" id="ZjN-YP-pa5"/>
                             <constraint firstItem="k98-c6-YOD" firstAttribute="leading" secondItem="ItA-SE-AQY" secondAttribute="leading" constant="3" id="apH-mD-oRg"/>
                             <constraint firstItem="4uc-Ip-McL" firstAttribute="leading" secondItem="ItA-SE-AQY" secondAttribute="leading" constant="326" id="eVN-FL-cxz"/>
                             <constraint firstItem="M3h-sj-Pnx" firstAttribute="top" secondItem="k98-c6-YOD" secondAttribute="bottom" constant="5" id="rOH-Sf-CcR"/>
